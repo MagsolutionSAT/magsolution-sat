@@ -1,0 +1,7 @@
+Flask
+Flask-SocketIO
+firebase-admin
+Flask-SQLAlchemy
+eventlet
+Pandas
+scikit-learn

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGSOLUTION AI</title>
+</head>
+<body>
+    <h1>MAGSOLUTION SAT - Prediction Portal</h1>
+    <form action="/predict" method="post">
+        <label>Temperatura:</label><br>
+        <input type="number" name="temperatura" required><br>
+        <label>Vibración:</label><br>
+        <input type="number" name="vibracion" required><br>
+        <label>Tiempo de Operación:</label><br>
+        <input type="number" name="tiempo_operacion" required><br>
+        <label>Presión:</label><br>
+        <input type="number" name="presion" required><br><br>
+        <button type="submit">Predecir</button>
+    </form>
+</body>
+</html>
