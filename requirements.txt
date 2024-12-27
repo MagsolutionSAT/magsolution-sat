@@ -1,9 +1,8 @@
 Flask
-Flask-SocketIO
-firebase-admin
+flask-cors
 Flask-SQLAlchemy
-eventlet
-Pandas
-scikit-learn
-gunicorn
+mysql-connector-python
 joblib
+numpy
+jwt
+Werkzeug

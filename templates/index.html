@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAGSOLUTION AI</title>
+    <title>Magnesitas Navarras Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <h1>MAGSOLUTION SAT - Prediction Portal</h1>
-    <form action="/predict" method="post">
-        <label>Temperatura:</label><br>
-        <input type="number" name="temperatura" required><br>
-        <label>Vibración:</label><br>
-        <input type="number" name="vibracion" required><br>
-        <label>Tiempo de Operación:</label><br>
-        <input type="number" name="tiempo_operacion" required><br>
-        <label>Presión:</label><br>
-        <input type="number" name="presion" required><br><br>
-        <button type="submit">Predecir</button>
-    </form>
+    <header>
+        <h1>Magnesitas Navarras Dashboard</h1>
+    </header>
+    <main>
+        <section id="equipment-status">
+            <h2>Equipment Overview</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Temperature</th>
+                        <th>Vibration</th>
+                        <th>Status</th>
+                        <th>Last Updated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data from API -->
+                </tbody>
+            </table>
+        </section>
+        <section id="sustainability">
+            <h2>Sustainability Insights</h2>
+            <canvas id="carbonChart"></canvas>
+        </section>
+    </main>
+    <script src="/static/js/script.js"></script>
 </body>
 </html>
