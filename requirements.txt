@@ -5,3 +5,5 @@ Flask-SQLAlchemy
 eventlet
 Pandas
 scikit-learn
+gunicorn
+joblib
